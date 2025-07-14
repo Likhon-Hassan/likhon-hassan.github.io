@@ -1,82 +1,61 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #e6f2ff;
-    color: #222;
-    padding: 30px;
-    text-align: center;
-}
-
-.container {
-    background-color: aqua;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0,1);
-    max-width: 500px;
-    margin: auto;
-
-    
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150;
-    border-radius: 50px;
-    object-fit: cover;
-    margin-bottom: 20px;
-    border: 4px solid#0077cc;
+    width: 100px;
+    max-width:200px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 
+}
+
+
+
+body{
+    margin: 0;
+    padding: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #222;
+    
 }
 
 a {
+    display:inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
     text-decoration: none;
-
+    border-radius: 6px;
+    transition: background-color 0.3s;
 }
 
-.facebook {
-    color: black;
-}
-
-.facebook:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.email {
-    color: black;
-
-}
-
-.email:hover {
-    color: black;
-    text-decoration: underline;
-
-}
-
-
-ul, ol {
-    text-align: left;
-    margin: 20px auto;
-    max-width: 300px;
-
-}
-
-h1, h3 {
-    color: #036;
-
+a:hover {
+    background-color: #444;
 }
 
 @media screen and (max-width: 600px) {
-    .container {
-        padding: 20px;
-    }
-
-    .profile-pic {
-        width: 120px;
-        height: 120px;
-    }
-    
+    front-size: 24px;
 }
-    
 
 
+h1 {
+    front-size: 24px;
+}
+
+h2 {
+    front-size: 20px;
+}
+
+h3 {
+    front-size: 16px;
+}
+
+a {
+    padding: 8px 12px;
+    front-size: 14px;
+}
+}
 
