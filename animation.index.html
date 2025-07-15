@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dear Junior</title>
+  <style>
+    body {
+      background: #0c0c2c;
+      color: white;
+      text-align: center;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      padding: 50px;
+    }
+
+    .typing {
+      font-size: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #fff;
+      width: 0;
+      margin: 20px auto;
+      animation: typing 2s steps(40, end) forwards, blink 0.6s step-end infinite;
+    }
+
+    @keyframes typing {
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    .birthday-heading {
+      font-size: 40px;
+      color: #ffd700;
+      opacity: 0;
+      transform: scale(0.8);
+      animation: zoomFadeIn 1s ease-in-out 1.5s forwards;
+    }
+
+    @keyframes zoomFadeIn {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .happy {
+      border: 2px dashed hotpink;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 40px auto;
+      width: 80%;
+      background: #141432;
+      box-shadow: 0 0 20px #00000080;
+    }
+
+    .quote-text {
+      color: lightgreen;
+      font-size: 18px;
+      opacity: 0;
+      animation: fadeIn 1.5s ease-in-out 2s forwards;
+    }
+
+    .flaws {
+      color: purple;
+      font-size: 20px;
+      opacity: 0;
+      animation: fadeIn 1.7s ease-in-out 2.2s forwards;
+    }
+
+    .footer-text {
+      color: cyan;
+      margin-top: 20px;
+      opacity: 0;
+      animation: fadeIn 2.2s ease-in-out 2.6s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div style="margin-top: -30px;">"Dear Oishe"</div>
+   
+  <!--4sec AnimTION-->
+  <div class="typing">Wishing You The Happiest Birthday Ever</div>
+
+  <div style="margin-top: 5px; font-size: 18px;">{-Tmr new Birth-Date-}</div>
+
+  <div class="happy">
+    <div class="birthday-heading">Happy Birthday <br> Junior</div>
+
+    <div class="quote-text">
+      Make a list of your top priorities, then delete half of them <br>
+      and focus on what is lefts. Everyone is temporary. <br></div>
+    <div class="flaws">
+        You are more than your flaws.
+    </div>
+    
+
+
+    <div class="footer-text">-Love from Senior Vaiya-</div>
+  </div>
+
+</body>
+</html>
